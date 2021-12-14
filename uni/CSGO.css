@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+body{
+    margin:0px;
+    padding: 0px; 
+    font-family: "Audiowide", sans-serif;
+    background-image: url(https://dmarket.com/blog/best-csgo-wallpapers/csgo_wallpaper3_hu1bf74106b65eb80bf71b6b19ff5d3f9a_7874588_1920x1080_resize_lanczos_3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+section{
+
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+/* styling and format for the background of the site */
+
+.navbar{
+	height: 30px;
+	position:relative;
+	padding:px;
+    overflow: hidden;
+    width:100%;
+    background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    border-color: rgba(255, 255, 255, 0.808);
+    border-style: inset;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+}
+/* styling for the navbar at the top of the page */
+
+.form-box{
+    width:380px;
+	height:280px;
+	position:relative;
+	margin:2% auto;
+    background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+	padding:10px;
+    overflow: hidden;
+    border-color: rgba(255, 255, 255, 0.808);
+    border-style: inset;
+    border-width: 5px;
+}
+
+.form-box-del{
+    width:380px;
+	height:180px;
+	position:relative;
+	margin:2% auto;
+    background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+	padding:10px;
+    overflow: hidden;
+    border-color: rgba(255, 255, 255, 0.808);
+    border-style: inset;
+    border-width: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    display:inline;
+    float:left;
+    padding-left: 20px;
+    padding-right: 275px;
+    /* margin-right: 150px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.692);
+    
+}
+li a:hover{
+    background-color: rgba(0, 255, 255, 0.616);
+    padding:5px;
+    color:black;
+}
+/* ul, li, a and li a:hover are all to do with the links at the 
+top of the page and how thye are styled */
+
+
+
+.input-group-login{
+	top: 30px;
+	position:absolute;
+	width:280px;
+    text-decoration: white;
+}
+
+.navbar2{
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    border-style: inset;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+}
+.weapon-window-1{
+    width:400px !important;
+	height:300px !important;
+    position: relative;
+    background:rgba(8, 8, 8, 0.527);
+	padding-top:10px;
+    overflow: hidden;
+    border-color: rgba(39, 39, 39, 0.966);
+    border-style: inset;
+    border-width: 5px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    margin-left: 100px; 
+    float: left;
+
+}
+
+.weapons-button
+{
+	width: 100px;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin-top: 8px;
+    margin-left: 45px;
+	background: #33333300;
+	border: 0;
+	outline: none;
+    float: left;
+}
+.weapons-button:hover
+{
+    background-color: rgba(0, 255, 255, 0.616);
+}
+.input-group-register{
+	top: 30px;
+	position:absolute;
+	width:280px;
+	
+}
+
+.noaccount{
+    margin: 33px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.61);
+    
+}
+
+.alreadyaccount{
+    margin: 33px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.61);    
+}
+
+.input-field{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid rgb(95, 95, 95);
+	outline:none;
+	background: transparent;
+}
+
+.login-btn{
+	width: 60%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin: auto;
+	margin-top: 80px;
+	background: #7ad6f1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.change-btn{
+	width: 70%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin: auto;
+	margin-top: 25px;
+	background: #7ad6f1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.del-btn{
+	width: 70%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin: auto;
+	margin-top: 25px;
+    margin-left: 80px;
+	background: #7ad6f1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+
+.upload-btn{
+	width: 80%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin: auto;
+	margin-top: 40px;
+    margin-left: 75px;
+	background: #7ad6f1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    
+}
+.input-group-upload{
+	top: 30px;
+	position:absolute;
+	width:300px;
+    text-decoration: white;
+}
+
+.register-btn{
+	width: 60%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+    margin-top: 35px;
+	background: #7ad6f1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+#login{
+	left:50px;
+}
+
+#register{
+	left:50px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+input{
+    color: white;
+}
+.img-pad
+{
+    margin-left: 10px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.733);
+}
+h1{
+    color: rgba(255, 255, 255, 0.795);
+}
+.welcome-message
+{
+    width: 700px;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    position:relative;
+	margin:2% auto;
+    border-color: rgba(255, 255, 255, 0.808);
+    border-style: inset;
+    border-width: 5px;
+}
+.csgo-gif
+{
+    width:50%;
+    height:50%;
+    position:relative;
+    margin-left: 180px;
+    margin-top: 23px;
+
+}
+.col-w
+{
+    color: rgba(255, 255, 255, 0.712);
+}
